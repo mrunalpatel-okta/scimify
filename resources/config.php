@@ -10,9 +10,9 @@
 
 /* MySQL configuration */ 
 define("SCIMIFY_DB_USERNAME", "root");
-define("SCIMIFY_DB_PASSWORD", "");
-define("SCIMIFY_DB_SERVER", "localhost");
+define("SCIMIFY_DB_PASSWORD", "Passw0rd!");
+define("SCIMIFY_DB_SERVER", "scimify_db");
 define("SCIMIFY_DB_NAME","scimify");
 
 /* Other configuration */
-error_reporting(0);
+error_reporting(1);
